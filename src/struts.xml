@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- 指定由spring负责action对象的创建,如果添加了struts2-convention-plugin可以不用配置 因为在这个jar包中struts-plugin.xml文件在已经默认定义 -->
+	<!-- <constant name="struts.objectFactory" value="spring" /> -->
+	<!-- 当 struts的配置文件修改后，系统是否自动重新加载该文件，默认值为false（生 产环境下使用），开发阶段最好打开 -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<!-- 开发模式下使用，这样可以打印出更详细的错误信息.提交更加友好的信息 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 默认包 -->
+	<constant name="struts.convention.default.parent.package" value="convention-default" />
+	<!--默认包路径包含action,actions,struts,struts2的所有包都会被struts作为含有Action类的路径来搜索.设置此属性修改 -->
+	<constant name="struts.convention.package.locators" value="action" />
+	<!-- 基于什么包 -->
+	<constant name="struts.convention.package.locators.basePackage" value="com.sanqing.action" />
+	<!--开启动态方法调用 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	
+</struts>

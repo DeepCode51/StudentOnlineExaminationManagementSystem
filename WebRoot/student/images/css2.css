@@ -1,0 +1,110 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}td{font-size:12px;}input,select{margin:0px;padding:0px;}
+
+.centerbg{
+	background-image: url(centerbg.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+#text a{
+	font-size: 12px;
+	color: #364B32;
+	padding-left: 10px;
+	text-decoration: none;
+	background-image: url(letter.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#text a:hover{
+	color: #FF0000;
+	text-decoration: none;
+	background-image: url(letter1.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+a:link,a:visited{
+	color: #000000;
+	text-decoration: none;
+}a:hover{
+	color: #000000;
+	text-decoration: underline;
+}#calendar{  
+width:170px; 
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse;
+} 
+#calendar th{ 
+font: normal 12px;  
+}
+#calendar td {
+	text-align:center;
+	font-size: 12px;
+	border: 1px solid #699D5B;
+	color: #FFFF00;
+	background-color: #009900;
+	height: 10px;
+	width: 15px;
+}
+#calendar td a {
+	display:block;
+	width:15px;
+	height:10px;
+	color: #FF0000;
+} 
+#calendar td a:hover{ 
+color: #FFFFFF;
+}
+input,select,form{padding:0px;margin:0px;}
+.logt{
+	font-size: 12px;
+	line-height: 18px;
+	color: #2A2A2A;
+	text-align: left;
+	padding: 5px;
+}
+#com{
+	font-size: 12px;
+	color: #7A7E2C;
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	padding-top: 5px;
+	background-image: url(morebg.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#com a{
+	font-size: 12px;
+	color: #7A7E2C;
+	text-decoration: none;
+}
+#com a:hover{
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: underline;
+}#topic{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #618D08;
+	text-align: left;
+	padding: 2px;
+}
+#topic a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #618D08;
+	text-decoration: none;
+}
+#topic a:hover{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ff6600;
+	text-decoration: underline;
+}
